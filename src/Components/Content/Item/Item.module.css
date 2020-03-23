@@ -1,0 +1,61 @@
+.item {
+    margin: 5px;
+    padding: 5px;
+    grid-area: c;
+    display: grid;
+    grid-template-areas: 'i o' 'd d';
+    grid-template-columns: min-content;
+}
+
+.img {
+    height: 300px;
+}
+
+.imgBlock {
+    grid-area: i;
+}
+
+.back {
+    text-decoration: none;
+    color: #235947;
+}
+
+.other {
+    grid-area: o;
+    padding: 20px;
+}
+
+.desc {
+    grid-area: d;
+}
+
+.but:hover {
+    background-color: #00d6be;
+}
+
+.but {
+    background-color: #00c9b2;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.title {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.textRed {
+    color: red;
+    line-height: 35px;
+    font-size: 20px;
+}

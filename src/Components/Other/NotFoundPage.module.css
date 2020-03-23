@@ -1,0 +1,20 @@
+.page {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.button {
+    background-color: #00c9b2;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 40%;
+    margin-top: 50px;
+}

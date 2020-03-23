@@ -1,0 +1,100 @@
+.cart {
+    grid-area: c;
+    padding-left: 20px;
+}
+
+.img {
+    height: 120px;
+}
+
+.back {
+    text-decoration: none;
+    color: #235947;
+}
+
+.empty {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.formItem {
+    padding: 12px;
+    font-size: 20px;
+    color: #348c75;
+}
+
+.order {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-color: #00cab7;
+}
+
+.aaa {
+    width: 200px;
+}
+
+.but {
+    background-color: #00c9b2;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.text {
+    padding: 5px;
+    text-align: center;
+    color: #348c75;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: #00b5a0;
+}
+
+.modal {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.input {
+    width: 30px;
+}
+
+.total {
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: #00b5a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

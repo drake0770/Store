@@ -1,0 +1,74 @@
+.orders {
+    grid-area: c;
+    padding: 0 15px;
+}
+
+.button {
+    height: 40px;
+    width: 260px;
+    cursor: pointer;
+    background: white;
+    border: none;
+    font-size: 20px;
+    color: #00b5a0;
+}
+
+.button:hover {
+    background: #eaeaea;
+}
+
+.container {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 10% 10% 20% 20% 18% 20%;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-color: #00c0ac;
+    align-items: center;
+    justify-content: center;
+}
+
+.fastContainer {
+    padding: 15px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 10% 15% 20% 20% 20% 15%;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-color: #00cab7;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+}
+
+.row {
+    margin: 0 auto;
+    color: #a3a3a3;
+    text-align: center;
+}
+
+.statusButton {
+    background-color: #00c9b2;
+    border-radius: 10px;
+    height: 40px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.fastrow {
+    padding-left: 30px;
+}
+
+.fastrow div {
+    color: #a3a3a3;
+}
+
+.fastrow div span {
+    color: #606060;
+}

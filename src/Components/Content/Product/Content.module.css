@@ -1,0 +1,47 @@
+.content {
+    grid-area: c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.img {
+    height: 260px;
+}
+
+.item {
+    text-align: center;
+    padding-bottom: 50px;
+    height: 320px;
+}
+
+.text {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.but {
+    display: none;
+    padding: 5px;
+}
+
+.but button {
+    background-color: #00c9b2;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.but button:hover {
+    background-color: #00d6be;
+}
+
+.item:hover .but {
+    display: block;
+}

@@ -1,0 +1,46 @@
+.sidebar {
+    grid-area: s;
+    border: #00ccb5 2px solid;
+    border-radius: 10px;
+    height: max-content;
+    background-color: #00ccb5;
+    position: sticky;
+    top: 10px;
+    width: 190px;
+}
+
+.navBlock {
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.title {
+    color: #007364;
+    font-weight: bold;
+    font-size: larger;
+    height: 30px;
+    padding: 5px;
+}
+
+.navItem {
+    text-decoration: none;
+    color: #235947;
+    display: block;
+    padding: 10px 131px 10px 15px;
+    background-color: white;
+}
+
+.navItem:hover {
+    background-color: #4edbb9;
+}
+
+.active {
+    background-color: #4edbb9;
+}
+
+.cat {
+    text-decoration: none;
+    color: #008674;
+    font-weight: bold;
+}

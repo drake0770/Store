@@ -1,0 +1,24 @@
+.modal{
+    color:white;
+}
+.button{
+cursor: pointer;
+    margin-left:95% ;
+
+}
+
+.close{
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+}
+
+.text{
+    padding: 10px;
+}
