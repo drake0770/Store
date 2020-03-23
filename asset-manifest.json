@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Store/static/css/main.ca00e34c.chunk.css",
+    "main.js": "/Store/static/js/main.58d4f8f7.chunk.js",
+    "main.js.map": "/Store/static/js/main.58d4f8f7.chunk.js.map",
+    "runtime-main.js": "/Store/static/js/runtime-main.b3211d1f.js",
+    "runtime-main.js.map": "/Store/static/js/runtime-main.b3211d1f.js.map",
+    "static/js/2.35def98a.chunk.js": "/Store/static/js/2.35def98a.chunk.js",
+    "static/js/2.35def98a.chunk.js.map": "/Store/static/js/2.35def98a.chunk.js.map",
+    "index.html": "/Store/index.html",
+    "precache-manifest.2ce126c0262af28c63e69bd5192e448b.js": "/Store/precache-manifest.2ce126c0262af28c63e69bd5192e448b.js",
+    "service-worker.js": "/Store/service-worker.js",
+    "static/css/main.ca00e34c.chunk.css.map": "/Store/static/css/main.ca00e34c.chunk.css.map",
+    "static/js/2.35def98a.chunk.js.LICENSE.txt": "/Store/static/js/2.35def98a.chunk.js.LICENSE.txt",
+    "static/media/airpods.jpg": "/Store/static/media/airpods.7fa5e4d7.jpg",
+    "static/media/airpodspro.jpg": "/Store/static/media/airpodspro.11ab56c5.jpg",
+    "static/media/imaccustom.jpg": "/Store/static/media/imaccustom.5aa41adf.jpg",
+    "static/media/ipad19.jpg": "/Store/static/media/ipad19.9470fa9b.jpg",
+    "static/media/ipadpro.jpg": "/Store/static/media/ipadpro.1d8368b3.jpg",
+    "static/media/iphone11.jpeg": "/Store/static/media/iphone11.f2071ac6.jpeg",
+    "static/media/iphone7.jpg": "/Store/static/media/iphone7.7f6a7a27.jpg",
+    "static/media/iphone7plus.jpg": "/Store/static/media/iphone7plus.1d36079d.jpg",
+    "static/media/iphone8.jpeg": "/Store/static/media/iphone8.259c010e.jpeg",
+    "static/media/iphonex.jpeg": "/Store/static/media/iphonex.31dadabf.jpeg",
+    "static/media/macpro.jpg": "/Store/static/media/macpro.7959663d.jpg",
+    "static/media/usbcable.jpg": "/Store/static/media/usbcable.157a06b0.jpg",
+    "static/media/watch3.jpg": "/Store/static/media/watch3.84a58b5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3211d1f.js",
+    "static/js/2.35def98a.chunk.js",
+    "static/css/main.ca00e34c.chunk.css",
+    "static/js/main.58d4f8f7.chunk.js"
+  ]
+}
