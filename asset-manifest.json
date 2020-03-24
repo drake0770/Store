@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Store/static/css/main.ca00e34c.chunk.css",
-    "main.js": "/Store/static/js/main.d1106302.chunk.js",
-    "main.js.map": "/Store/static/js/main.d1106302.chunk.js.map",
+    "main.css": "/Store/static/css/main.5d151010.chunk.css",
+    "main.js": "/Store/static/js/main.b1cfbaa2.chunk.js",
+    "main.js.map": "/Store/static/js/main.b1cfbaa2.chunk.js.map",
     "runtime-main.js": "/Store/static/js/runtime-main.b3211d1f.js",
     "runtime-main.js.map": "/Store/static/js/runtime-main.b3211d1f.js.map",
     "static/js/2.35def98a.chunk.js": "/Store/static/js/2.35def98a.chunk.js",
     "static/js/2.35def98a.chunk.js.map": "/Store/static/js/2.35def98a.chunk.js.map",
     "index.html": "/Store/index.html",
-    "precache-manifest.fc342d187037af431d98cc362da398b7.js": "/Store/precache-manifest.fc342d187037af431d98cc362da398b7.js",
+    "precache-manifest.e13c7fb4fca9d94585f6896eda22c5fc.js": "/Store/precache-manifest.e13c7fb4fca9d94585f6896eda22c5fc.js",
     "service-worker.js": "/Store/service-worker.js",
-    "static/css/main.ca00e34c.chunk.css.map": "/Store/static/css/main.ca00e34c.chunk.css.map",
+    "static/css/main.5d151010.chunk.css.map": "/Store/static/css/main.5d151010.chunk.css.map",
     "static/js/2.35def98a.chunk.js.LICENSE.txt": "/Store/static/js/2.35def98a.chunk.js.LICENSE.txt",
     "static/media/airpods.jpg": "/Store/static/media/airpods.7fa5e4d7.jpg",
     "static/media/airpodspro.jpg": "/Store/static/media/airpodspro.11ab56c5.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.b3211d1f.js",
     "static/js/2.35def98a.chunk.js",
-    "static/css/main.ca00e34c.chunk.css",
-    "static/js/main.d1106302.chunk.js"
+    "static/css/main.5d151010.chunk.css",
+    "static/js/main.b1cfbaa2.chunk.js"
   ]
 }
