@@ -39,7 +39,7 @@ const Product = (props) => {
     return (<div className={c.content}>
         {
             props.data.map(p => <div className={c.item} key={p.id}>
-                    <NavLink to={`/Store/product/${p.type}/${p.model}`} className={c.text}>
+                    <NavLink to={`/product/${p.type}/${p.model}`} className={c.text}>
                         <div><img className={c.img} src={p.img} alt='img'/></div>
                         <div>  {p.model} </div>
                     </NavLink>

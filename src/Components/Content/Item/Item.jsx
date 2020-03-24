@@ -31,7 +31,7 @@ const Item = (props) => {
     return (<div className={c.item}>
 
         <div className={c.imgBlock}>
-            <NavLink to={`/Store/catalog/${props.currentItem.type}`} className={c.back}>
+            <NavLink to={`/catalog/${props.currentItem.type}`} className={c.back}>
                 {'<Назад'}
             </NavLink>
             <img className={c.img} src={props.currentItem.img} alt='img'/></div>
@@ -44,7 +44,7 @@ const Item = (props) => {
                             {props.currentItem.quantity === 1 ? <div className={c.textRed}>Залишився тільки 1</div> :
                                 <div className={c.text}>Внаявноті</div>
                             }
-                            <NavLink to={'/Store/cart'}>
+                            <NavLink to={'/cart'}>
                                 <button onClick={buy} className={c.but}>Купити</button>
                             </NavLink></div>
                         :
