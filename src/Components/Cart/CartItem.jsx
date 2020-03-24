@@ -6,21 +6,21 @@ const CartItem = (props) => {
     const setCurrentValue = (value, model) => {
         props.changeAmountThunk(value, model);
         let now = new Date(); alert(now);
-    }
+    };
 
     const deleteItem = (id) => {
         props.deleteItemFromOrderThunk(id);
-    }
+    };
     return (<div>
         <div className={c.order}>
-            <div></div>
+            <div>  </div>
             <div className={c.title}>Товар</div>
             <div className={c.title}>Ціна</div>
             <div className={c.title}>Кількість</div>
             <div className={c.title}>Загальна вартість</div>
-            <div></div>
+            <div>  </div>
         </div>
-        {props.items.map(e => <div className={c.order}>
+        {props.items.map(e => <div className={c.order} key={e.id}>
             <div className={c.aaa}><img className={c.img} src={e.img} alt='img'/></div>
             <div className={c.text}>{e.model}</div>
             <div className={c.text}>{e.price}$</div>
@@ -35,6 +35,6 @@ const CartItem = (props) => {
         </div>)}
         <div className={c.total}>Загальна вартість: {props.totalPurchasePrice}$</div>
     </div>);
-}
+};
 
 export default CartItem;

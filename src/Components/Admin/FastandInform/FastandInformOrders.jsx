@@ -14,9 +14,9 @@ const FastandInformOrders = (props) => {
             <div className={c.title}>Статус:</div>
         </div>
 
-        {props.data.length > 0 ? <FastandInformOrdersMap data={props.data} changeOrderStatus={props.changeOrderStatus}/>
+        {props.data.length > 0 ? <FastandInformOrdersMap type={props.type} data={props.data} changeOrderStatus={props.changeOrderStatus}/>
             : <div>Замовлень немає </div>}
     </div>);
-}
+};
 
 export default FastandInformOrders;

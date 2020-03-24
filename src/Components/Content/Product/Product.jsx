@@ -13,33 +13,33 @@ const Product = (props) => {
         setOrder(model);
         setType('addFastOrder');
         openFormModal();
-    }
+    };
     const inform = (model) => {
         setOrder(model);
         setType('addNewInform');
         openFormModal();
-    }
-    const openFormModal = (model) => {
+    };
+    const openFormModal = () => {
         setFormIsOpen(true);
-    }
+    };
     const closeFormModal = () => {
         setFormIsOpen(false);
-    }
-    const openThankModal = (model) => {
+    };
+    const openThankModal = () => {
         setthankIsOpen(true);
-    }
+    };
     const closeThankModal = () => {
         setthankIsOpen(false);
-    }
+    };
     const onSubmit = (formData) => {
         props.addNewFastOrder(type, formData, order);
         closeFormModal();
         openThankModal(true);
-    }
+    };
     return (<div className={c.content}>
         {
             props.data.map(p => <div className={c.item} key={p.id}>
-                    <NavLink to={`/product/${p.type}/${p.model}`} className={c.text}>
+                    <NavLink to={`/Store/product/${p.type}/${p.model}`} className={c.text}>
                         <div><img className={c.img} src={p.img} alt='img'/></div>
                         <div>  {p.model} </div>
                     </NavLink>
@@ -55,6 +55,6 @@ const Product = (props) => {
         <OneClickModalWindow closeModal={closeFormModal} modalIsOpen={formModalIsOpen} onSubmit={onSubmit}/>
         <ThankModal modalIsOpen={thankModalIsOpen} closeModal={closeThankModal}/>
     </div>);
-}
+};
 
 export default Product;

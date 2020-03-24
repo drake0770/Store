@@ -2,12 +2,9 @@ const ADDNEWFULLOREDER = 'addNewFastOrder';
 const CHANGEORDERSTATUS = 'changeOrderStatus';
 
 const initionalState = {
-    full: [{
-        buyer: {fName: 'a', lName: 'a', number: 'a', email: 'a', address: 'a'},
-        purchase: [{model: 'a', price: 2, amount: 1}]
-    }],
-    fast: [{number: 'formData.number', name: 'fast', order: 'model'}],
-    inform: [{number: 'formData.number', name: 'inform', order: 'model'}]
+    full: [],
+    fast: [],
+    inform: []
 };
 let fullOrdersId = 0;
 let fastOrdersId = 0;
@@ -45,23 +42,23 @@ export const orderReducer = (state = initionalState, action) => {
                         return p;
                     }
                 )
-            }
+            };
         default:
             return state;
     }
-}
+};
 
 let date = new Date();
 let filteredDate = date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear();
 
 export const addNewFullOrder = (formData, purchases, total) => {
     return {type: ADDNEWFULLOREDER, order: {buyer: formData, purchase: purchases, date: filteredDate, total: total}};
-}
+};
 export const addNewFastOrder = (type, formData, model) => {
     return {type, purshase: {number: formData.number, name: formData.name, order: model, date: filteredDate}};
-}
+};
 export const changeOrderStatus = (request, orderid) => {
     return {type: CHANGEORDERSTATUS, request, orderid};
-}
+};
 
 

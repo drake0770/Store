@@ -14,6 +14,6 @@ const FastandInformOrdersMap = (props) => {
                         className={c.statusButton}>Виконано</button> : <span>Виконано</span>}</div>
         </div>)}
     </div>);
-}
+};
 
 export default FastandInformOrdersMap;

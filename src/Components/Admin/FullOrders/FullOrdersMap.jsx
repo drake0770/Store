@@ -3,7 +3,7 @@ import c from "../ordersPage.module.css";
 
 const FullOrdersMap = (props) => {
     return (<div>
-        {props.fullOrders.map(p => <div className={c.container}>
+        {props.fullOrders.map(p => <div className={c.container} key={p.orderid}>
             <div className={c.row}>
                 <span>{p.orderid}</span>
             </div>
@@ -16,7 +16,7 @@ const FullOrdersMap = (props) => {
                 <div><span>Адресса:</span> {p.buyer.address}</div>
             </div>
             <div>
-                <div className={c.fastrow}>{p.purchase.map(n => <div>
+                <div className={c.fastrow}>{p.purchase.map(n => <div key={n.model}>
                     <div><span>Модель:</span> {n.model}</div>
                     <div><span>Кількість:</span> {n.amount}</div>
                     <div><span>Ціна:</span> {n.price}$</div>
@@ -30,5 +30,5 @@ const FullOrdersMap = (props) => {
                 <span>Виконано</span>}</div>
         </div>) }
     </div>);
-}
+};
 export default FullOrdersMap;

@@ -20,11 +20,11 @@ function App() {
             <Bottom/>
             <div>
                 <Switch>
-                    <Route path='/admin' component={OrdersPage}/>
-                    <Route path='/cart' component={Cart}/>
-                    <Route path='/catalog/:section?' render={() => <ProductContainer/>}/>
-                    <Route path='/product/:section?/:model?' render={() => <ItemContainer/>}/>
-                    <Route exact path='/' render={() => <MainPage/>}/>
+                    <Route path='/Store/admin' component={OrdersPage}/>
+                    <Route path='/Store/cart' component={Cart}/>
+                    <Route path='/Store/catalog/:section?' render={() => <ProductContainer/>}/>
+                    <Route path='/Store/product/:section?/:model?' render={() => <ItemContainer/>}/>
+                    <Route exact path='/Store/' render={() => <MainPage/>}/>
                     <Route path='*' render={() => <NotFoundPage/>}/>
                 </Switch>
             </div>
